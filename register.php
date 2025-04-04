@@ -2,6 +2,7 @@
 session_start();
 include 'connect.php';
 
+// Registration Logic
 if (isset($_POST['signUp'])) {
     $firstName = $_POST['fName'];
     $lastName = $_POST['lName'];
